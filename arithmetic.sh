@@ -2,7 +2,7 @@
 # Simple arithmetic operations.
 # Ej 22.03.2023
 
-echo "This file is external file function for Script nr4"
+# This is external file for Script nr4 functions.sh
 
 function arithmetic_operations {
 
