@@ -2,6 +2,8 @@
 # Simple arithmetic operations.
 # Ej 22.03.2023
 
+echo "This file is external file function for Script nr4"
+
 function arithmetic_operations {
 
     # Get the two numbers from command line arguments
