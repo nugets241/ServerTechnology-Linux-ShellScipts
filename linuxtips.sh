@@ -5,7 +5,6 @@
 
 CONTINUE='xj'
 # Begin the while loop
-echo
 while [ "$CONTINUE" = 'xj' ] ; do
   tty -s || exit # Check if we have interactive shell
 
