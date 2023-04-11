@@ -13,5 +13,5 @@ The `linuxtips.sh` script displays a daily tip in the terminal. To use the scrip
 
 Note that if you change the location of the `linuxtips.sh` script or the directory where the tip files are stored, you will need to update the script accordingly.
 
-## Converting the line endings of the files from CRLF to LF might be needed for the scripts to work!!
+## Converting the line endings of the files from CRLF to LF might be needed for the scripts to work properly!!
 
