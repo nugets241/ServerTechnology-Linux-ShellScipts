@@ -12,3 +12,5 @@
 The `linuxtips.sh` script displays a daily tip in the terminal. To use the script, you need to add it to your `.bashrc` file so that it runs every time you start a new terminal session. This way, you will see a new tip every time you open the terminal. 
 
 Note that if you change the location of the `linuxtips.sh` script or the directory where the tip files are stored, you will need to update the script accordingly.
+
+## \033[31m Converting the line endings of the files from CRLF to LF might be needed for the scripts to work!
