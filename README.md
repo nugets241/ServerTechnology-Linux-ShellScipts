@@ -33,3 +33,5 @@ fetch-rfcs.sh
 This script fetches RFC files from https://www.ietf.org/rfc/rfc{N}.txt and prints out data (Change {N} with desired number). The script fetches a specified number (N) of RFC files (provided as a command line argument), starting from a random number, and prints out the title of the RFCs and number of lines in the RFC. Some files may have the status of 404 (e.g. RFC 8 and 9). If that's the case, the script will print "HTTP Status Code: 404 Page Not Found" in the place of the title and number of lines.
 
 To run the script, enter the following command: ./fetch-rfcs.sh <N>
+
+## Converting the line endings of the files from CRLF to LF might be needed for the scripts to work properly!!
