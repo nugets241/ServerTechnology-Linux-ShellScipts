@@ -1,0 +1,14 @@
+Topic: awk
+
+'awk' allows you to manipulate and process structured data 
+files. It can be used to search for patterns, filter, 
+transform and manipulate text, and perform calculations on 
+data. It works by reading input data line by line and 
+separating it into fields, which can be accessed and 
+processed individually. For example:
+
+$ awk '{print $1}' file.txt
+
+This will print the first field of each line in the file 
+'file.txt'. The '$1' specifies the first field, and the 
+'print' command outputs the specified field for each line.

@@ -1,0 +1,23 @@
+Topic: nl
+
+'nl' allows you to add line numbers to a text file or input 
+stream. It is useful for referencing specific lines in a 
+document or for preparing files for printing. For example:
+
+$ nl file.txt
+
+This will add line numbers to the file 'file.txt' and print 
+the numbered lines to the terminal. The '-b' option can be 
+used to specify where to number the lines. For example, 
+'-b a' will number all lines, '-b t' will number non-blank 
+lines, and -b p will number only lines that contain text:
+
+$ nl -b a file.txt
+
+This will number all lines of the file 'file.txt'. The '-n' 
+option can be used to specify the starting line number:
+
+$ nl -n 10 file.txt
+
+This will number the lines of the file 'file.txt' starting 
+at line number 10.

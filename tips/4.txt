@@ -1,0 +1,10 @@
+Topic: sed
+
+The 'sed' can be used to perform a wide range of text 
+manipulation tasks, such as searching and replacing text, 
+deleting lines, and inserting new lines.
+
+Example: replace all occurrences of a string "foo" 
+with "bar" in a file file.txt:
+
+$ sed 's/foo/bar/g' file.txt
