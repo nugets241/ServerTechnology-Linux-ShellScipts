@@ -1,0 +1,4 @@
+# Created by cloud-init v. 22.4.2-0ubuntu0~22.04.1 on Thu, 23 Mar 2023 10:39:37 +0000
+
+# User rules for ubuntu
+ej ALL=(ALL) ALL
