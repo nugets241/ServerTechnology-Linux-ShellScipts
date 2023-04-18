@@ -1,7 +1,12 @@
 #!/bin/bash
 # A script to display tip of the day
 # Ej 11.04.2023
+TIPDIR=/opt/stec/totd/tips
 
+# Enable skipping the tips - if file ~/.notips exists, exit
+if [ -f .notips ]; then
+  return
+fi
 
 CONTINUE='xj'
 # Begin the while loop
@@ -14,7 +19,7 @@ while [ "$CONTINUE" = 'xj' ] ; do
     CURTIP=1
   fi
 
-  TIPFILE=./tips/$CURTIP.txt
+  TIPFILE=$TIPDIR/$CURTIP.txt
   echo "=================================================="
   echo "TIP OF TODAY ($TIPFILE)"
   echo "--------------------------------------------------"
@@ -23,7 +28,7 @@ while [ "$CONTINUE" = 'xj' ] ; do
   echo
 
 
-  NUMTIPS=$(ls ./tips/*.txt | wc -l)
+  NUMTIPS=$(ls $TIPDIR/*.txt | wc -l)
   NEXT=$(( ($CURTIP % $NUMTIPS) + 1 ))
 
   echo "$NEXT" > ./.curtip
