@@ -17,3 +17,9 @@ Note that if you change the location of the `linuxtips.sh` script or the directo
 
 ## Converting the line endings of the files from CRLF to LF might be needed for the scripts to work properly!!
 
+## How to use the linuxtips3.sh script
+
+1. Copy the `linuxtips3.sh` script and the tips directory where the tip files are stored to your home directory.
+2. Open the `~/.bashrc` file using a text editor.
+3. Add the following line to the end of the file: `~/linuxtips3.sh`
+4. Save the changes and exit the editor.
