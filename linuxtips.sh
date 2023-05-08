@@ -1,7 +1,7 @@
 #!/bin/bash
 # A script to display tip of the day
 # Ej 11.04.2023
-TIPDIR=/opt/stec/totd/tips
+TIPDIR=/nfs/tips
 
 # Enable skipping the tips - if file ~/.notips exists, exit
 if [ -f .notips ]; then
