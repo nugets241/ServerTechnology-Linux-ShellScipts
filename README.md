@@ -12,6 +12,10 @@ This project contains the server configurations for the Server Tech 2023 project
 
 This project contains a collection of Bash scripts for various tasks related to server technologies. The scripts are stored in the `LearningBashScripts-2023/` directory. For more details, refer to the [README](LearningBashScripts-2023/README.md) in the `LearningBashScripts-2023/` directory.
 
+### Tip of the Day - Server Tech 2023
+
+This project contains two scripts, `linuxtips.sh` and `linuxtips3.sh`, which display a daily tip in the terminal. The tips are stored in text files in the `tips` directory. For more details, refer to the [README](TipOfTheDay-2023/README.md) in the `TipOfTheDay-2023/` directory.
+
 ## Installation
 
 To use these projects, clone this repository to your local machine.
