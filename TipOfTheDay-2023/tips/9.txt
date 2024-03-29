@@ -1,0 +1,15 @@
+Topic: head
+
+'head' allows you to view the beginning of a text file or 
+input stream. It is useful for previewing the contents of 
+large files or output streams. For example:
+
+$ head file.txt
+
+This will display the first 10 lines of the file file.txt. 
+You can change the number of lines displayed by specifying 
+the -n option, like so:
+
+$ head -n 20 file.txt
+
+This will display the first 20 lines of the file file.txt.

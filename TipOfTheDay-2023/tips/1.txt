@@ -1,0 +1,9 @@
+Topic: wc
+
+The 'wc' command can be used to count the number of 
+characters, words, and lines in a file. To count only the 
+number of lines, use the '-l' option. For example:
+
+$ wc -l file.txt
+
+This will display the number of lines in the file 'file.txt'.
