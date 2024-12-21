@@ -1,4 +1,4 @@
-# Linux Server Management and Scripts
+# Linux Server Management and Scripts 2023
 
 This repository contains various projects related to server technologies, including configuration management and Bash scripting. It showcases my skills in managing server configurations and writing efficient Bash scripts.
 
